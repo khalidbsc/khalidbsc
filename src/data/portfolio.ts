@@ -14,7 +14,7 @@ export const profile = {
     "I keep garment factories running smoothly — managing IT operations, troubleshooting systems, maintaining reliable infrastructure, and supporting the digital transformation of production and business teams.",
   // Put your CV file in the /public folder (e.g. public/cv.pdf) and set the path here.
   cvUrl: "/cv.pdf",
-  photoUrl: "", // optional: paste an image URL for your profile photo
+  photoUrl: photoAsset.url,
   email: "khalidhasanbsc@gmail.com",
   phone: "+880 1827308503",
   linkedin: "https://www.linkedin.com/in/your-profile",
