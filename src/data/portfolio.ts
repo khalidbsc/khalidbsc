@@ -1,3 +1,5 @@
+import photoAsset from "@/assets/khalid-hasan.jpg.asset.json";
+
 // ============================================================
 // EDIT THIS FILE to update everything on your portfolio.
 // Remove any skill / project / item you don't want by deleting it.
