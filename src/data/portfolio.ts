@@ -4,8 +4,8 @@
 // ============================================================
 
 export const profile = {
-  name: "[YOUR NAME]",
-  initials: "YN",
+  name: "Khalid Hasan",
+  initials: "KHALID HASAN",
   title: "RMG IT Professional | IT Infrastructure & Technology Specialist",
   headline: "Connecting Technology with the Garments Industry.",
   intro:
@@ -13,8 +13,8 @@ export const profile = {
   // Put your CV file in the /public folder (e.g. public/cv.pdf) and set the path here.
   cvUrl: "/cv.pdf",
   photoUrl: "", // optional: paste an image URL for your profile photo
-  email: "your.email@example.com",
-  phone: "+880 1XXX-XXXXXX",
+  email: "khalidhasanbsc@gmail.com",
+  phone: "+880 1827308503",
   linkedin: "https://www.linkedin.com/in/your-profile",
   github: "https://github.com/your-username",
   location: "Bangladesh",
@@ -59,14 +59,14 @@ export const projects: { title: string; description: string; tech: string[]; fea
 ];
 
 export const timeline: { period: string; role: string; org: string; points: string[]; type: "work" | "education" }[] = [
-  { period: "[Start] – Present", role: "[Your Job Title]", org: "[Company Name], Bangladesh", points: ["[Key responsibility]", "[Key responsibility]", "[Key responsibility]"], type: "work" },
-  { period: "[Start] – [End]", role: "[Previous Role]", org: "[Previous Company]", points: ["[Key responsibility]", "[Key responsibility]"], type: "work" },
-  { period: "[Year]", role: "[Degree / Diploma]", org: "[Institution Name]", points: ["[Major / subject]"], type: "education" },
+  { period: "[December-2024] – Present", role: "[Senior Executive - ICT & ERP]", org: "[Partex Star Group], Bangladesh", points: ["[IT infrastructure]", "[System Administration]", "[IT Support]"], type: "work" },
+  { period: "[2017] – [2024]", role: "[Executive - IT & ERP]", org: "[IRIS GROUP] Bangladesh", points: ["[IT infrastructure]", "[IT infrastructure]"], type: "work" },
+  { period: "[2019-2023]", role: "[Degree / Bachelor of Science]", org: "[Southeast University]", points: ["[BSC IN CSE]"], type: "education" },
 ];
 
 export const achievements: { title: string; issuer: string; year: string; kind: string }[] = [
-  { title: "[Certification Name]", issuer: "[Issuing Organization]", year: "[Year]", kind: "Certification" },
-  { title: "[Training Completed]", issuer: "[Provider]", year: "[Year]", kind: "Training" },
-  { title: "[Professional Achievement]", issuer: "[Context]", year: "[Year]", kind: "Achievement" },
-  { title: "[Measurable Result]", issuer: "[Describe the impact]", year: "[Year]", kind: "Result" },
+  { title: "[CCNA Networking]", issuer: "[ IBCS  PRIMAX]", year: "[2018]", kind: "Certification" },
+  { title: "[Training Completed]", issuer: "[IBCS  PRIMAX]", year: "[2018]", kind: "Training" },
+  { title: "[Inter University Programming]", issuer: "[Web Developer]", year: "[2020]", kind: "Achievement" },
+  { title: "[Winner]", issuer: "[2nd Place]", year: "[2020]", kind: "Result" },
 ];
